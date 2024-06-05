@@ -5,8 +5,13 @@ run-analysis.py
 Run each of the relevant scripts in turn, in the right order, to produce the data and plots for analysis, in order.
 """
 
-variables_to_keep = ['script', 'variables_to_keep', 'var_to_check'] + dir()
 import os
+
+variables_to_keep = ['script', 'variables_to_keep', 'var_to_check'] + dir()
+
+__version__ = '0.1.1'
+__author__ = 'Jamie Heather'
+__email__ = 'jheather@mgh.harvard.edu'
 
 scripts_order = ['illustrate-nadir.py',
                  'lymphopenia-incidence.py',
@@ -37,6 +42,7 @@ else:
 base_plot_dir = fxn.make_check_dir(fxn.base_plot_dir)
 raw_data_dir = fxn.make_check_dir(fxn.raw_data_dir)
 conv_data_dir = fxn.make_check_dir(fxn.conv_data_dir)
+vdjdb_dir = fxn.make_check_dir(fxn.vdjdb_dir)
 
 # Check all required input files are present in raw data directory
 required_csv = ['chemoRT-lymphopenia.csv', 'flow-data.csv', 'metadata.csv']

@@ -16,7 +16,7 @@ import seaborn as sns
 from scipy import stats
 
 
-__version__ = '0.6.1'
+__version__ = '0.6.2'
 __author__ = 'Jamie Heather'
 __email__ = 'jheather@mgh.harvard.edu'
 
@@ -594,6 +594,7 @@ db_dir = '../CDR3-Databases/'
 raw_data_dir = '../Raw-Data/'
 conv_data_dir = '../Converted-Data/'
 base_plot_dir = '../Plots/'
+vdjdb_dir = raw_data_dir + 'VDJdb/'
 date_format = '%Y-%m-%d'
 stitch_character = '|'
 blue = (0.2980392156862745, 0.4470588235294118, 0.6901960784313725)
