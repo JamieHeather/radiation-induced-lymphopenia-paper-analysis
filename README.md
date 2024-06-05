@@ -1,11 +1,9 @@
 # Radiotherapy induced lymphopenia:
 ## Photons versus protons paper analysis
 
-### A collaboration between the Cobbold and Hong labs at MGH, 2018-2020*
+This repository contains all of the scripts used to generate the data for the *\[TODO manuscript in preparation\]*&ast;. 
 
-This repository contains all of the scripts used to generate the data for the *\[TODO manuscript in preparation\]*. 
-
-The input TCR data is stored in one of two places, in different formats. Users have the choice of downloading [the raw data from the immuneACCESS resource]([https://clients.adaptivebiotech.com/pub/heather-2020](https://clients.adaptivebiotech.com/pub/heather-2020)), or the AIRR-seq Community compliant format as produced by running the data through [```immunoseq2airr```](https://github.com/JamieHeather/immunoseq2airr), available from (TODO LINK TO GO HERE).
+The input TCR data is stored in one of two places, in different formats. Users have the choice of downloading [the raw data from the immuneACCESS resource]([https://clients.adaptivebiotech.com/pub/heather-2020](https://clients.adaptivebiotech.com/pub/heather-2020)), or the AIRR-seq Community compliant format as produced by running the data through [```immunoseq2airr```](https://github.com/JamieHeather/immunoseq2airr), available from https://doi.org/10.5281/zenodo.11480289.
 
 To conveniently execute all of the required analyses, and thus generate all the plots and intermediate files, follow these steps:
 
@@ -42,4 +40,4 @@ The following Python modules are required:
 * `lifelines`
 * `graph_tool`
 
-<sub><sup>&ast; Manuscript delayed due to global pandemics, PIs leaving, babies appearing, lead authors moving labs, and life generally getting in the way.</sup></sub>
+<sub><sup>&ast; Note that despite this work representing a collaboration that took place between 2018 and 2020, and was [presented at the AIRR-C Meeting in 2020](https://www.youtube.com/watch?v=SDqN5QY24z0), the manuscript was severely delayed due to global pandemics, PIs leaving, babies appearing, lead authors moving labs, and life generally getting in the way.</sup></sub>
